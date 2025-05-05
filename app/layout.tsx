@@ -7,10 +7,30 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Music Academy - Piano, Guitar & Ukulele Lessons",
+  title: "Piano with Hardik | Piano, Guitar & Ukulele Lessons",
   description:
-    "Expert music lessons for all ages and skill levels. Start your musical journey today with personalized instruction.",
-    generator: 'v0.dev'
+    "Expert music lessons for all ages and skill levels. Learn piano, guitar, and ukulele with Hardik Pandya, a qualified Western music teacher with over 10 years of experience.",
+  keywords:
+    "piano lessons, guitar lessons, ukulele lessons, music teacher, online music lessons, Hardik Pandya, music education, Trinity College London certified",
+  authors: [{ name: "Hardik Pandya" }],
+  creator: "Hardik Pandya",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.pianowithhardik.com",
+    title: "Piano with Hardik | Music Academy",
+    description:
+      "Expert music lessons for all ages and skill levels. Learn piano, guitar, and ukulele with Hardik Pandya.",
+    siteName: "Piano with Hardik",
+    images: [
+      {
+        url: '/hardik-3.jpeg',
+        width: 400,
+        height: 400,
+        alt: 'LRV Group',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
