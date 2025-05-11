@@ -12,32 +12,25 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false })
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Piano Student",
-    content:
-      "The lessons have been transformative for my piano skills. The teacher's patience and expertise made learning enjoyable and effective.",
-    avatar: "/placeholder.svg?height=80&width=80",
+    name: "Ravi Kishan",
+    content: "Learning keyboard from Hardik Sir over the past one year has been an incredible journey. His teaching style is clear, patient, and perfectly paced for both beginners and those with some experience. He doesn't just teach notes, chords and song, he builds a strong foundation in music, finger technique, and expression. What makes him stand out is his genuine passion for music and dedication to each student’s growth. He tailors lessons according to individual pace and makes even complex concepts related to keyboard easy to understand. Thanks to him, I can now play confidently and even experiment with composing a little! If you're looking for a tutor who is skilled, motivating, and truly cares about your progress, I wholeheartedly recommend Hardik Sir.",
+    avatar: "/Ravi-Kishan.jpeg",
   },
   {
-    name: "Michael Chen",
-    role: "Guitar Student",
-    content:
-      "I've tried many guitar teachers before, but none compare to the quality of instruction I receive here. Highly recommended!",
-    avatar: "/placeholder.svg?height=80&width=80",
+    name: "Agrim Bansal",
+    content: 'Hardik sir, you have been an essential part of my music learning process... While encouraging is the least I can say you have been more like a guiding light all through my journey... I remember the first time I met you, it felt like an immediate connection between us and I knew I was in for a great memory... You never left a stone unturned to get me perfect the skill... Even through covid your immense support and mentorship has been a crucial reason I am still proud of this skill... It was because of you that I scored so well and had even received a distinction in the trinity exams of music... I have won some competitions like Rajatotsav and also was known for my musical skills in my school often leading programs and arrangements and I give all the credit to you... Sir you are an angel in disguise spreading your love through music.',
+    avatar: "/Agrim-Bansal.jpeg",
   },
   {
-    name: "Emma Williams",
-    role: "Parent of Student",
-    content:
-      "My daughter has flourished under the guidance of her music teacher. The personalized approach has made all the difference.",
-    avatar: "/placeholder.svg?height=80&width=80",
+    name: "Vishvajeet raj",
+    content: 'Hardik sir was the person who first sparked my interest in music, and learning from him genuinely shaped my journey. His teaching style strikes the perfect balance — he’s approachable and fun, yet firm when it comes to commitment and discipline. What I appreciated most was how clearly he laid out the fundamentals. His focus on building a strong foundation helped me grow with confidence and clarity in my playing.',
+    avatar: "/Vishvajeet-raj.jpeg",
   },
   {
-    name: "David Thompson",
-    role: "Adult Student",
+    name: "Manan bansal",
     content:
-      "It's never too late to learn! At 45, I started piano lessons and have made incredible progress thanks to the structured curriculum.",
-    avatar: "/placeholder.svg?height=80&width=80",
+      "Hardik sir, changed my life. I was 16 and eager to learn music but finding a good teacher was a huge huge task that’s when I found him. The way he talked to me and understood my learning style and the way he adapted to it and encouraged me in the right way to do better made it so that I learnt the piano and guitar almost instantly. Looking at my eagerness and talent he also taught me to follow my dreams of singing and helped me become an artist myself. I couldn’t imagine being here without him.",
+    avatar: "/Manan-bansal.jpeg",
   },
 ]
 
@@ -122,7 +115,6 @@ export default function TestimonialsSection() {
                   </div>
                   <div>
                     <p className="font-medium">{testimonial.name}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.role}</p>
                   </div>
                 </CardFooter>
               </Card>

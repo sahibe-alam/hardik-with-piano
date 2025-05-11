@@ -5,7 +5,7 @@ export default function CtaBanner() {
   return (
     <section className="bg-primary py-16 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary mix-blend-overlay"></div>
-      <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-10 bg-center bg-no-repeat bg-cover"></div>
+      <div className="absolute inset-0 bg-[url('/banner-img.jpg')] opacity-10 bg-center bg-no-repeat bg-cover"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center justify-between space-y-4 text-center sm:flex-row sm:text-left md:space-y-0">
           <div className="space-y-2">

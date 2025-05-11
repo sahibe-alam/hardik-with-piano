@@ -3,7 +3,7 @@ import HeroBanner from "@/components/hero-banner"
 import InstrumentsSection from "@/components/instruments-section"
 import WelcomeSection from "@/components/welcome-section"
 import TestimonialsSection from "@/components/testimonials-section"
-import YouTubeSection from "@/components/youtube-section"
+// import YouTubeSection from "@/components/youtube-section"
 import WhyChooseUsSection from "@/components/why-choose-us-section"
 import FaqSection from "@/components/faq-section"
 import CtaBanner from "@/components/cta-banner"
@@ -18,7 +18,7 @@ export default function Home() {
         <InstrumentsSection />
         <WelcomeSection />
         <TestimonialsSection />
-        <YouTubeSection />
+        {/* <YouTubeSection /> */}
         <WhyChooseUsSection />
         <CertificationSection />
         <FaqSection />
